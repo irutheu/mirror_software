@@ -33,7 +33,7 @@
         var hour = addZero(dt.getHours());
 
         var year = dt.getFullYear();
-        var month = addZero(dt.getMonth());
+        var month = addZero(dt.getMonth() + 1);
         var day = addZero(dt.getDate());
         
         date.innerHTML = day + "-" + month + "-" + year;
